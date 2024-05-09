@@ -68,6 +68,10 @@ header {
 .target-secodn-sec p{
     margin-top: 30px;
     margin-bottom: 30px;
+    opacity: 0.5;
+}
+.target-secodn-sec h1{
+    font-size: 40px;
 }
 .apple-text {
   font-size: 9px;
@@ -84,6 +88,9 @@ header {
 }
 .target-img{
    width: 80%;
+}
+.main-second-section{
+    margin-top: 60px;
 }
 @media screen and (max-width: 567px) {
   /* banner responsive start */
