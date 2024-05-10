@@ -132,6 +132,39 @@ header {
     text-align: center;
     opacity: 0.6;
 }
+.caloring-container{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+.caloring-first-div{
+    width: 50%;
+    text-align: center;
+}
+.caloring-first-div h1{
+    font-size: 60px;
+}
+.caloring-first-div button{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+    background-color: #caf4ff;
+   margin: 0 auto;
+}
+.caloring-first-div p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    opacity: 0.5;
+}
+.caloring-second-div{
+    width: 50%;
+}
+.caloring-second-div img{
+    width: 70%;
+}
 @media screen and (max-width: 567px) {
   /* banner responsive start */
   *{
@@ -209,5 +242,19 @@ header {
 .div-grid{
     top: 1350px;
     left: 60px;
+}
+.caloring-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.caloring-first-div{
+    width: 100%;
+    text-align: center;
+}
+.caloring-second-div{
+    width: 100%;
+}
+.caloring-second-div img{
+    width: 100%;
 }
 }
