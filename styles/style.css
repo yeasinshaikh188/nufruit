@@ -165,6 +165,50 @@ header {
 .caloring-second-div img{
     width: 70%;
 }
+.sponsor-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.sponsor-section img{
+    width: 80%;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    background-color: #caf4ff;
+    height: 600px;
+    width: 1300px;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 13px;
+}
+.first-footer{
+    width: 50%;
+    text-align: center;
+}
+.first-footer h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.first-footer button{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00215e;
+    color: white;
+   margin: 0 auto;
+}
+.second-footer{
+    width: 50%;
+}
+.second-footer img{
+    width: 80%;
+}
 @media screen and (max-width: 567px) {
   /* banner responsive start */
   *{
@@ -255,6 +299,20 @@ header {
     width: 100%;
 }
 .caloring-second-div img{
+    width: 100%;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+.first-footer{
+    width: 100%;
+}
+.second-footer{
+    width: 100%;
+}
+.second-footer img{
     width: 100%;
 }
 }
