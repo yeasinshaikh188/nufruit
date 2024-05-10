@@ -91,6 +91,46 @@ header {
 }
 .main-second-section{
     margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+.main-first-div{
+    background-image: url(../images/bg\ 3.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    width: 50%;
+    position: relative;
+}
+.main-first-div h1{
+    float: right;
+    font-size: 60px;
+}
+.div-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 1550px;
+    left: 350px;
+}
+.main-second-div{
+    width: 50%;
+
+}
+.first-h1{
+ font-size: 40px;
+ text-align: center;
+ opacity: 0.4;
+}
+.second-h1-with-img{
+    text-align: center;
+    margin-top: 40px;
+}
+.second-h1-with-img img{
+    width: 30px;
+}
+.main-second-div p{
+    text-align: center;
+    opacity: 0.6;
 }
 @media screen and (max-width: 567px) {
   /* banner responsive start */
@@ -150,5 +190,24 @@ header {
     display: flex;
    margin: 0 auto;
   }
+  .main-second-section{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.main-first-div{
+    width: 100%;
+    position: relative;
+}
+.main-second-div{
+    width: 100%;
 
+}
+.main-first-div h1{
+    font-size: 40px;
+}
+.div-grid{
+    top: 1350px;
+    left: 60px;
+}
 }
